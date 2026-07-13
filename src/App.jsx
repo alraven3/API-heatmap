@@ -86,6 +86,7 @@ function App() {
 
   return (
     <div style={{ padding: 24, fontFamily: 'system-ui, sans-serif' }}>
+      <h1>Heatmap: Weekly Temperatures Across the World in 2025</h1>
       <Heatmap data={heatmapData} width={900} height={600} />
     </div>      
   )
