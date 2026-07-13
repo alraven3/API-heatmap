@@ -96,11 +96,11 @@ const xLabels = allXGroups
     return (
       <text
         key={i}
-        x={-12}
+        x={-10}
         y={yPos}
         textAnchor="end"
         dominantBaseline="middle"
-        fontSize={11}
+        fontSize={12}
         fontWeight="500"
       >
         {name}
