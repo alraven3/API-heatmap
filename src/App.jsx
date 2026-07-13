@@ -79,10 +79,7 @@ function App() {
     fetchData();
   }, []);
 
-  // 4. Affichez un chargement ou la heatmap seulement si les données sont là
-  if (!heatmapData) {
-    return <div>Chargement des données...</div>;
-  }
+
 
   return (
     <div style={{ padding: 24, fontFamily: 'system-ui, sans-serif' }}>
