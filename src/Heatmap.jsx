@@ -4,6 +4,9 @@ import * as d3 from "d3";
 const MARGIN = { top: 10, right: 10, bottom: 30, left: 100 }; // Augmentez left pour les noms de villes
 
 export const Heatmap = ({ width, height, data }) => {
+    if (!data || data.length === 0) {
+    return null; // nécessaire pour éviter que JS lance automatiquement une erreur si data est null au premier rendu
+  }
   const boundsWidth = width - MARGIN.right - MARGIN.left;
   const boundsHeight = height - MARGIN.top - MARGIN.bottom;
 
