@@ -82,7 +82,7 @@ const xLabels = allXGroups
           y={boundsHeight + 20}
           textAnchor="middle"
           dominantBaseline="hanging"
-          fontSize={10}
+          fontSize={12}
           fill="#555" // Optionnel: couleur un peu plus claire pour ne pas surcharger
         >
           {name}
@@ -96,7 +96,7 @@ const xLabels = allXGroups
     return (
       <text
         key={i}
-        x={-10}
+        x={-12}
         y={yPos}
         textAnchor="end"
         dominantBaseline="middle"
