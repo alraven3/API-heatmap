@@ -85,7 +85,7 @@ function App() {
     <div style={{ padding: 24, fontFamily: 'system-ui, sans-serif' }}>
       <h1>Heatmap: Weekly Temperatures Across the World in 2025</h1>
       <Heatmap data={heatmapData} width={900} height={600} />
-      <p><a href='https://open-meteo.com/'>Data: Open-Meteo API</a></p>
+      <p>Data: <a href='https://open-meteo.com/'>Open-Meteo API</a></p>
     </div>      
   )
 }
